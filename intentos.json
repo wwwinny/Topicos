@@ -1,0 +1,57 @@
+{
+    "intents": [{
+            "tag": "saludo",
+            "patterns": ["Hola", "¿Cómo estás", "¿Hay alguien ahí?", "Buen día", "Buenas tardes", "Buenos días", "Buenas noches"],
+            "responses": ["Hola, gracias por visitar nuestra tienda de productos para mascotas Huellitas", "Es bueno verte , bienvenido a tienda de productos para mascotas Huellitas", "Hola, ¿en qué puedo ayudar?", "Hola, ¿ Que desea hacer?"],
+            "context_set": ""
+        },
+        {
+            "tag": "adios",
+            "patterns": ["Adios", "Chau", "Hasta luego", "Hasta otra ", "Hasta la vista"],
+            "responses": ["Nos vemos, gracias por visitar nuestra tienda Huellitas", "Ten un buen dia", "Adios, vuelva pronto", "La Tienda Huellitas le agradece su visita ", "Adios, espero verlo denuevo"],
+            "context_set": ""
+        },
+        {
+            "tag": "gracias",
+            "patterns": ["Gracias", "Eso me ayudo", "Gracias por la ayuda", "Gracias por la consulta"],
+            "responses": ["Feliz de poder ser de ayuda", "Es un placer", "De nada", "No hay de que", "Gracias a ti por consultarnos"],
+            "context_set": ""
+        },
+        {
+            "tag": "horario",
+            "patterns": ["¿A qué horas está abierto?", "¿Cuáles son sus horas?", "¿Cuándo abren?", "¿Cual es el horario de atencion?", "¿Que dias abren?", "¿A que hora esta atendiendo?"],
+            "responses": ["Nuestra atencion es de 8am a 6pm todos los dias ", "Podemos atenderle desde las 8am a 6pm todos los dias", "Huellitas esta abierto de todos los dias de 8am-6pm"],
+            "context_set": ""
+        },
+        {
+            "tag": "pagos",
+            "patterns": ["¿Acepta tarjetas de crédito?", "¿Puedo pagar con Yape?", "¿Como puedo pagar?", "¿Aceptan Mastercard?", "¿Es solo efectivo?"],
+            "responses": ["Nosotros aceptamos tarjetas VISA, Mastercard , Yape y efectivo", "Usted puede pagar contarjetas VISA, Mastercard , Yape y efectivo "],
+            "context_set": ""
+        },
+        {
+            "tag": "abierto",
+            "patterns": ["¿Está abierto hoy?", "¿A que hora habren hoy?", "¿Habra atencion mañana?"],
+            "responses": ["Si, Huellitas habre todos los dias con excepcion de feriados de 8am a 6pm"],
+            "context_set": ""
+        },
+        {
+            "tag": "productos",
+            "patterns": ["¿Que productos vende?", "¿Que productos hay en la tienda?", "¿Que productos tiene a la venta?"],
+            "responses": ["Huellitas vende : Comida de perro , gato , hamsters y canarios ; tambien tenemos ropa para mascotas , productos de higiene para mascotas, juguetes, camas y demas accesorios "],
+            "context_set": ""
+        },
+        {
+            "tag": "cortes",
+            "patterns": ["¿Realiza cortes de pelo para perros?", "¿Cuánto cuesta un corte de pelo a un perro?"],
+            "responses": ["Nuestra tienda no realizar cortes de pelo a mascotas "],
+            "context_set": ""
+        },
+        {
+            "tag": "vacunas",
+            "patterns": ["¿Realiza vacunas a perros o gatos?", "¿Realiza vacunaciones?"],
+            "responses": ["Nuestra tienda no realiza trabajos de veterinaria", "No realizamos vacunaciones y ninun tipo de cirugia a animales"],
+            "context_set": ""
+        }
+    ]
+}
